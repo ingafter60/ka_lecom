@@ -66,3 +66,15 @@
         new file:   app/Model/Admin/Category.php
         new file:   app/Model/Admin/Subcategory.php
         modified:   readme.md	
+
+## Section 8: Theme Frontend
+
+	7.8.1.74. Project Frontend Mastering Part 1
+	> added homepage
+	> git status
+		...
+	 	modified:   resources/views/layouts/app.blade.php
+        modified:   resources/views/welcome.blade.php
+        modified:   routes/web.php
+
+	8.8.2.75. Project Frontend Mastering Part 2
