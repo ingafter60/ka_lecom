@@ -26,7 +26,11 @@
 		modified:   resources/views/admin/admin_layouts.blade.php
     modified:   resources/views/admin/auth/login.blade.php
 
-	3.7.3.70. Admin Panel Customization Part 3
+	3.7.3.70. (Add admin homepage) Admin Panel Customization Part 3
+	> Add admin home page template
+	> git status
+		modified:   resources/views/admin/admin_layouts.blade.php
+    modified:   resources/views/admin/home.blade.php
 
 	4.7.4.71. Setup Admin Password Change Option
 
