@@ -20,7 +20,11 @@
 	1.7.1.68. Admin Panel Customization Part 1
 	> Added default admin homepage with assets in public/backend
 
-	2.7.2.69. Admin Panel Customization Part 2
+	2.7.2.69. (Create admin login page) Admin Panel Customization Part 2
+	> Create admin login page
+	> git status
+		modified:   resources/views/admin/admin_layouts.blade.php
+    modified:   resources/views/admin/auth/login.blade.php
 
 	3.7.3.70. Admin Panel Customization Part 3
 
