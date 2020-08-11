@@ -77,4 +77,27 @@
         modified:   resources/views/welcome.blade.php
         modified:   routes/web.php
 
-	8.8.2.75. Project Frontend Mastering Part 2
+	8.8.2.75. (using template inheritance/layouts) Project Frontend Mastering Part 2
+	> using template inheritance/layouts
+	> git status
+		modified:   resources/views/layouts/app.blade.php
+        new file:   resources/views/layouts/header/header_main.blade.php
+        new file:   resources/views/layouts/header/nav_main.blade.php
+        new file:   resources/views/layouts/header/page_menu.blade.php
+        new file:   resources/views/layouts/header/top_bar.blade.php
+        new file:   resources/views/pages/inc/home/adverts.blade.php
+        new file:   resources/views/pages/inc/home/banner.blade.php
+        new file:   resources/views/pages/inc/home/banner_2.blade.php
+        new file:   resources/views/pages/inc/home/best_sellers.blade.php
+        new file:   resources/views/pages/inc/home/brands.blade.php
+        new file:   resources/views/pages/inc/home/characteristics.blade.php
+        new file:   resources/views/pages/inc/home/deals_of_the_week.blade.php
+        new file:   resources/views/pages/inc/home/hot_new_arrivals.blade.php
+        new file:   resources/views/pages/inc/home/newsletter.blade.php
+        new file:   resources/views/pages/inc/home/popular_categories.blade.php
+        new file:   resources/views/pages/inc/home/recently_viewed.blade.php
+        new file:   resources/views/pages/inc/home/reviews.blade.php
+        new file:   resources/views/pages/inc/home/trends_content.blade.php
+        new file:   resources/views/pages/inc/home/trends_sliders.blade.php
+        new file:   resources/views/pages/index.blade.php
+        modified:   routes/web.php
