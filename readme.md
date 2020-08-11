@@ -32,7 +32,12 @@
 		modified:   resources/views/admin/admin_layouts.blade.php
     modified:   resources/views/admin/home.blade.php
 
-	4.7.4.71. Setup Admin Password Change Option
+	4.7.4.71. (Reset admin password) Setup Admin Password Change Option
+	> Reset admin password
+	> git status
+		new file:   public/backend/img/anjel.JPG
+    modified:   resources/views/admin/admin_layouts.blade.php
+    modified:   resources/views/admin/auth/passwordchange.blade.php	
 
 	5.7.5.72. Laravel controller model and migration making Part 1
 
