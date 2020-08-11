@@ -51,4 +51,18 @@
 		new file:   database/migrations/2020_08_11_085907_create_brands_table.php
 		modified:   readme.md
 
-	6.7.6.73. Laravel controller model and migration making Part 2
+	6.7.6.73. (Create CategoryContrller and Model for Category, Subcategory, and Brand) Laravel controller model and migration making Part 2
+	> Create controlller: CategoryController
+		> php artisan make:controller Admin/Category/CategoryController
+	> Create model: Category, Subcategory, Brand
+		> php artisan make:model Model/Admin/Category
+		> php artisan make:model Model/Admin/Subcategory
+		> php artisan make:model Model/Admin/Brand
+	> make onle authenticated user can access the admin	
+	> make fillable to those models	
+	> git status
+		new file:   app/Http/Controllers/Admin/Category/CategoryController.php
+        new file:   app/Model/Admin/Brand.php
+        new file:   app/Model/Admin/Category.php
+        new file:   app/Model/Admin/Subcategory.php
+        modified:   readme.md	
