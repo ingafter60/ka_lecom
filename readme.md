@@ -39,6 +39,16 @@
     modified:   resources/views/admin/admin_layouts.blade.php
     modified:   resources/views/admin/auth/passwordchange.blade.php	
 
-	5.7.5.72. Laravel controller model and migration making Part 1
+	5.7.5.72. (Create tables: categories, subcategories, brands) Laravel controller model and migration making Part 1
+	> Create tables: categories, subcategories, brands
+		> php artisan make:migration create_categories_table --create=categories
+		> php artisan make:migration create_subcategories_table --create=subcategories
+		> php artisan make:migration create_brands_table --create=brands
+		> php artisan migrate
+	>git status
+		new file:   database/migrations/2020_08_11_085652_create_categories_table.php
+		new file:   database/migrations/2020_08_11_085833_create_subcategories_table.php
+		new file:   database/migrations/2020_08_11_085907_create_brands_table.php
+		modified:   readme.md
 
 	6.7.6.73. Laravel controller model and migration making Part 2
